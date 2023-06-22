@@ -30,8 +30,8 @@ jobs:
             - name: "运行 轻之国度自动签到"
               run: python3 function/masiro/masiro.py
               env:
-                  LIGHT_NOVEL_USER: ${{ secrets.MASIRO_USER }}
-                  LIGHT_NOVEL_PASS: ${{ secrets.MASIRO_PASS }}
+                  MASIRO_USER: ${{ secrets.MASIRO_USER }}
+                  MASIRO_PASS: ${{ secrets.MASIRO_PASS }}
                   SEND_KEY: ${{ secrets.SEND_KEY }}
                   PUSH_KEY: ${{ secrets.PUSH_KEY }}
                   BARK_PUSH: ${{ secrets.BARK_PUSH }}
