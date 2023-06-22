@@ -28,7 +28,7 @@ if __name__ == '__main__':
     
 
     user = os.environ['LIGHT_NOVEL_USER']
-    password = os.environ['LIGHT_NOVEL_PASS]
+    password = os.environ['LIGHT_NOVEL_PASS']
 
     if user == '' or password == '':
         print("请输入账号密码")
