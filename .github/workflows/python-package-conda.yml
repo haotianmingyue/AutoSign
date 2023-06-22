@@ -28,7 +28,7 @@ jobs:
               run: pip install undetected-chromedriver
 
             - name: "运行 轻之国度自动签到"
-              run: python3 function/bika/bika.py
+              run: python3 function/lightnovel/lightnovel.py
               env:
                   LIGHT_NOVEL_USER: ${{ secrets.LIGHT_NOVEL_USER }}
                   LIGHT_NOVEL_PASS: ${{ secrets.LIGHT_NOVEL_PASS }}
